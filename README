@@ -1,0 +1,7 @@
+The repository contains designs used to test MicroBlaze Simple Linux (MBSL).
+It is separated to let the MBSL repository be as small as possible.
+
+The designs are structured by the target FPGA type and the board they are intended
+for. So the directory spartan6/ contains designs for this type of FPGA. Then files
+for the Atlys board are named as atlys.bit (for the bitstream) etc. If a design has
+a special purpose then it should be put in its name (eg atlys_video.{mhs,mss,...}).
